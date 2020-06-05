@@ -1,0 +1,27 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-medium">
+    <a class="navbar-brand disabled" href>음악 추천 블로그</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="{%url 'home'%}">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{%url 'create'%}">Write</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.melon.com/index.htm" target="__blank">Melon</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">방문을 환영합니다</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  {%block contents%}
+
+  {%endblock%}
